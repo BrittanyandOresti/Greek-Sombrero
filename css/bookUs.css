@@ -1,0 +1,85 @@
+ul {
+display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  margin-left: auto;
+  justify-content: space-around;
+  border-style: double;
+  border-width: 15px;
+  background-color: red;
+}
+.htmlsUl{
+ padding: 1%;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+ font-size: 1.8em;
+ list-style-type: none;
+}
+.LastMinute{
+ display: flex;
+ justify-content: space-around;
+ height: 8vh;
+ text-align: center;
+ border-style: double;
+ border-width: 15px;
+ background-color: lightblue;
+}
+#fb,#phFab{
+ width: 8vw;
+ height: 8vh;
+}
+
+
+.TrailerBackPics{
+ display: flex;
+ justify-content: space-around;
+
+}
+#Black, #Red{
+ height: 80vh;
+ width: 35vw;
+}
+form{
+ height: 80vh;
+ width: 20vw;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+}
+
+input, select{
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ margin: 10px;
+ border-radius: 10% / 50%;
+ background-color: #Dbd6d6;
+ font-size: 20px;
+}
+
+textarea {
+ width: 19vw;
+ height: 25vh;
+ color: black;
+ text-align: center;
+ border-radius:  40px / 60px 10px;;
+ background-color: #Dbd6d6;
+ font-size: 20px;
+}
+
+#inputActivity{
+ width: 19vw;
+}
+
+
+#send{
+ color: black;
+ text-align: center;
+ border-radius: 50% 20% / 10% 40%;
+ background-color: #Dbd6d6;
+ font-size: 20px;
+ font-weight: bold;
+}

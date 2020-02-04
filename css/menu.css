@@ -1,0 +1,43 @@
+ul {
+display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  margin-left: auto;
+  justify-content: space-around;
+  border-style: double;
+  border-width: 15px;
+  background-color: red;
+}
+.htmlsUl{
+ padding: 1%;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+ font-size: 1.8em;
+ list-style-type: none;
+}
+#fb,#phFab{
+ width: 8vw;
+ height: 8vh;
+}
+
+#first, #second{
+ height: 85vh;
+ width: 35vw;
+
+}
+#TacoV{
+ height: 85vh;
+ width: 20vw;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+}
+.menu{
+display: flex;
+justify-content: space-around;
+/* border-style: double;
+border-width: 15px; */
+}

@@ -1,0 +1,65 @@
+ul {
+display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  margin-left: auto;
+  justify-content: space-around;
+  border-style: double;
+  border-width: 15px;
+  background-color: red;
+}
+.htmlsUl{
+ padding: 1%;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+ font-size: 1.8em;
+ list-style-type: none;
+}
+#fb,#phFab{
+ width: 8vw;
+ height: 8vh;
+}
+.FirstGroup{
+ display: flex;
+ justify-content: space-around;
+}
+#Pretty, #Porky{
+ width: 25vw;
+ height:60vh;
+}
+#Cmenu{
+ width: 36vw;
+ height:60vh;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+}
+.Spreads{
+ display: flex;
+ justify-content: space-around;
+}
+#Meat,#PDF{
+ padding-top: 10%;
+ padding-left: 2%;
+ padding-right: 2%;
+ width: 3vw;
+ height:35vh;
+ border-style: double;
+ border-width: 15px;
+ border-color: black;
+}
+#Mex,#Greek{
+width: 45vw;
+height: 35vh;
+}
+#phFabBelow{
+ width: 5vw;
+ height: 25vh;
+ padding:25px;
+ border-style: double;
+ border-width: 15px;
+ background-color: red;
+}
