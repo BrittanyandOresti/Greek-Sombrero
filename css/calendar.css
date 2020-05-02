@@ -26,3 +26,14 @@ a{
  font-size: 1.8em;
  list-style-type: none;
 }
+
+#fb,#phFab,#today{
+ width: 8vw;
+ height: 8vh;
+}
+#cal{
+ padding-top: 3%;
+ padding-left: 10%;
+ width: 80vw;
+ height: 80vh;
+}
