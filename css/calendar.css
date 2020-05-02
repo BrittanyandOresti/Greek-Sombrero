@@ -1,0 +1,28 @@
+ul {
+ display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 1%;
+   overflow: hidden;
+   margin-left: auto;
+   justify-content: space-around;
+   border-style: double;
+   border-color: green;
+   border-width: 15px;
+   background-color: black;
+}
+a{
+ color: white;
+ text-decoration: none;
+ font-size: 2em;
+
+}
+.htmlsUl{
+ padding: 1%;
+ border-style: double;
+ border-width: 15px;
+ border-color: green;
+ background-color: black;
+ font-size: 1.8em;
+ list-style-type: none;
+}
