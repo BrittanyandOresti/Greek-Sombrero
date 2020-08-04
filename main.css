@@ -1,5 +1,5 @@
 ul {
-display: flex;
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 1%;
@@ -11,19 +11,22 @@ display: flex;
   border-width: 15px;
   background-color: red;
 }
+
 a{
  color: white;
  text-decoration: none;
  font-size: 2em;
-
 }
+
 #fb,#phFab,#today{
  width: 8vw;
  height: 8vh;
 }
+
 .header{
    background-color: black;
 }
+
 #fbook,#cal{
  height: 35vh;
  width: 30vw;
@@ -46,4 +49,12 @@ a{
  width: 100vw;
  height: 38vh;
 
+}
+
+@media only {
+
+}
+header {
+  display:  flex;
+  flex-direction: column;
 }
