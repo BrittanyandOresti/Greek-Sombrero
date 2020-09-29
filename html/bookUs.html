@@ -15,74 +15,61 @@
 
  </head>
 
- <header>
- <ul class="tabs" id="tabs" >
-
-  <li><a class="current" href="../index.html"><h3>HOME</h3></a></li>
-
-
-  <li><a href="OurFriends.html"><h3>OUR FRIENDS</h3></a></li>
-
-  <li><a href="../index.html"><img id="header_logo" src="../img/logo_final.png"# alt="Meat_and_GreeK_Truck_logo"></a></li>
-
-  <li><a href="#"><h3>BOOK US</h3></a></li>
-
-  <li><a href="calendar.html"><h3>CALENDAR</h3></a></li>
-
-  <li><a href="menu.html"><h3>MENU</h3></a></li>
-
-  <!-- <li><a href="html/FindUs.html"><h3>FIND US</h3></a></li> -->
-  <!-- <li><a href="html/catering.html"><h3>CATERING</h3></a></li> -->
-  <!-- <li><a href="html/about.html"><h3>ABOUT</h3></a></li> -->
-
-
- </ul>
-</header>
-
- <body>
-
- <div class="book">
-
-  <div class="contact-title">
-   <h1>Say Hello</h1>
-   <h2>Γεια σου </h2>
-   <h4>We're happy to hear from you</h4>
+ <header class="top">
+  <div class="htmls">
+   <ul class="htmlsUl">
+    <li><a href="../index.html">home</a></li>
+    <li> <a href="https://www.facebook.com/The-Greek-Sombrero-107970747344125/"target="_blank"><img src="../img/FBfav.png"id="fb" alt=""></li>
+     <li><a href="menu.html">Menu</a></li>
+    <!-- <li><a href="bookUs.html">Book Us</a></li> -->
+    <li><a href="tel:910-315-6690"><img src="../img/PhoneFab.png" id="phFab"alt=""></a></li>
+    <li><a href="catering.html">Catering</a></li>
+   </ul>
   </div>
+ </header>
 
+ 
 
-   <div class="contact-form">
+  <body>
+    <form id="contact-form" action="https://formspree.io/greeksombrereotruck@gmail.com" method="POST">
 
-    <form id="Contact-Form" method="POST"    action="https://formspree.io/greeksombrereotruck@gmail.com">
+     <div class="info1">
+      <input id="inputFName" type="text" name="name" placeholder="First Name" required>
+      <input id="inputLName" type="text" name="name" placeholder="Last Name" required>
+      <input id="phone" type="tel" name="phone" value="" placeholder="Phone" required>
+      <input id="inputEmail" type="text" name="_replyto" placeholder="Email" required>
+     </div>
 
-     <input type="text" name="name" class="form-control" placeholder="your name"required><br>
+     <!-- <div class="info2">
+      <select name="event" id="inputActivity">
+       <option value="select event"> Event Type</option>
+       <option value="Private Party">Private Party</option>
+       <option value="Wedding/Rehersel Dinner">Wedding/Rehearsal Dinner</option>
+       <option value="Birthday">Birthday</option>
+       <option value="Corparate Event">Corporate Event</option>
+       <option value="Graduation">Graduation</option>
+       <option value="Festival">Festival</option>
+       <option value="other">Other</option>
+      </select>
+      <input  id="inputDate" type="date" name="Date" value="" placeholder="Event Date" required></input>
+      <input  id="inputGuests" type="number" name="Guests" value="" placeholder="No. of Guests" required>
+     </div> -->
 
-     <input type="email" name="emai" class="form-control" placeholder="your email"required><br>
+     <div class="info3">
+      <textarea name="message" rows="8" cols="80" id="inputMessage" placeholder="Message"></textarea>
+     </div>
 
-     <textarea name="message" class="form-control"placeholder="Message"rows="4"></textarea><br>
-
-     <input type="submit" class="form-control submit" value="Send Message"><br>
-
-     <input type="hidden" name="_next" value="//greeksombrerotruck.com" />
+     <div class="info4">
+      <button id="send" type="submit" value="Send" >Send</button>
+     </div>
+       <!-- for thank you page -->
+      <input type="hidden" name="_next" value="//GreekSombreroTruck.com" >
 
     </form>
 
-   </div>
+     <h6>website by OPA Creations Group</h6>
 
+  <script type="text/javascript"src="../JS/contact.js"></script>
 
-  </div>
-  <footer>
-
-      <div class="social_icons">
-        <a href="http://facebook.com/MeatandGreekTruck" class="fa fa-facebook"></a>
-        <a href="http://instagram.com/meatandgreektruck" class="fa fa-instagram"></a>
-        <a href="http://google.com/meatandgreektruck" class="fa fa-google"></a>
-      </div>
-
-      <div class="footer_info">
-        <h1>910-747-GYRO (4976)</h1>
-        <h1>Powered by Borstein Web Design</h1>
-      </div>
-
-  </footer>
- </body>
+  </body>
 </html>
