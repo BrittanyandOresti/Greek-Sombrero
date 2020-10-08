@@ -7,7 +7,7 @@ ul {
   margin-left: auto;
   justify-content: space-around;
   border-style: double;
-  border-color: green;
+  border-color: black;
   border-width: 15px;
   background-color: red;
 }
@@ -24,7 +24,7 @@ a{
 }
 
 .header{
-   background-color: black;
+   background-color: #5cbbd6;
 }
 
 #fbook,#cal{
@@ -41,7 +41,7 @@ a{
  padding: 1%;
  border-style: double;
  border-width: 15px;
- background-color: black;
+ background-color: #5cbbd6;
  font-size: 1.8em;
  list-style-type: none;
 }
