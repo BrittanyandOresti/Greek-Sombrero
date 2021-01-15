@@ -32,13 +32,14 @@ a{
 }
 
 #first, #second{
- height: 85vh;
+ height: 95vh;
  width: 35vw;
 
 }
 #TacoV{
- height: 85vh;
- width: 20vw;
+ height: 55vh;
+ width: 35vw;
+ margin-top: 20vh;
  border-style: double;
  border-width: 15px;
  background-color: green;

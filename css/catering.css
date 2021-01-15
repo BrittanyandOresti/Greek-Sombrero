@@ -37,10 +37,11 @@ a{
 #Pretty, #Porky{
  width: 25vw;
  height:60vh;
+ margin-top: 10vh;
 }
 #Cmenu{
  width: 36vw;
- height:60vh;
+ height:80vh;
  border-style: double;
  border-width: 15px;
  background-color: black;
