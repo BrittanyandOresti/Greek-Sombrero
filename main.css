@@ -58,3 +58,19 @@ header {
   display:  flex;
   flex-direction: column;
 }
+
+.family_link {
+  width:  90=9%;
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: double;
+  border-width: 15px;
+  background-color: #5cbbd6;
+  padding:  1%;
+}
+
+.family_link img {
+  width:  10vw;
+  padding-right:  3%;
+}
